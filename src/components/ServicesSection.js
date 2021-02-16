@@ -19,7 +19,7 @@ export default function ServicesSection() {
           
           <Card>
             <div className="icon">
-              <img src={clock} alt="Clock" srcset=""/>
+              <img src={clock} alt="Clock" srcSet=""/>
               <h3>Efficient</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
@@ -27,7 +27,7 @@ export default function ServicesSection() {
 
           <Card>
             <div className="icon">
-              <img src={teamwork} alt="teamwork" srcset=""/>
+              <img src={teamwork} alt="teamwork" srcSet=""/>
               <h3>Teamwork</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
@@ -35,7 +35,7 @@ export default function ServicesSection() {
 
           <Card>
             <div className="icon">
-              <img src={diaphragm} alt="diaphragm" srcset=""/>
+              <img src={diaphragm} alt="diaphragm" srcSet=""/>
               <h3>Diaphragm</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
@@ -43,7 +43,7 @@ export default function ServicesSection() {
 
           <Card>
             <div className="icon">
-              <img src={money} alt="affordable" srcset=""/>
+              <img src={money} alt="affordable" srcSet=""/>
               <h3>Affordable</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
@@ -52,7 +52,7 @@ export default function ServicesSection() {
         </Cards>
       </Description>
       <Image>
-        <img src={home2} alt="home" srcset=""/>
+        <img src={home2} alt="home" srcSet=""/>
       </Image>
     </Services>
   )
