@@ -23,7 +23,7 @@ export default function OurWork() {
 
   return (
     <Work
-      style={{ background: "#fff" }}
+      style={{ background: "#dfdfdf" }}
       variants={pageAnimation}
       initial="hidden"
       animate="show"

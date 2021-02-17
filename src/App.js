@@ -1,21 +1,20 @@
-import React from 'react'
+import React from "react";
 //Global Style
-import {GlobalStyle} from "./components/GlobalStyle";
+import { GlobalStyle } from "./components/GlobalStyle";
 //Import components
-import AboutUs from './pages/AboutUs'
-import ContactUs from './pages/ContactUs'
-import OurWork from './pages/OurWork'
-import Nav from './components/Nav'
-import MovieDetail from './pages/MovieDetail'
+import AboutUs from "./pages/AboutUs";
+import ContactUs from "./pages/ContactUs";
+import OurWork from "./pages/OurWork";
+import Nav from "./components/Nav";
+import MovieDetail from "./pages/MovieDetail";
 //Router
-import {Switch, Route, useLocation} from 'react-router-dom'
+import { Switch, Route, useLocation } from "react-router-dom";
 //animation
 import { AnimatePresence } from "framer-motion";
-
+import ScrollTop from "./components/ScrollTop";
 
 function App() {
-
-  const location = useLocation()
+  const location = useLocation();
 
   return (
     <div className="App">
@@ -40,6 +39,7 @@ function App() {
           </Route>
         </Switch>
       </AnimatePresence>
+      <ScrollTop />
     </div>
   );
 }
