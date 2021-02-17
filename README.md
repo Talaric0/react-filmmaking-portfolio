@@ -2,7 +2,7 @@
 
 ## Links
 
-- http://Talaric0.github.io/react-filmmaking-portfolio
+- http://Talaric0.github.io/react-filmmaking-portfolio/
 
 ## Description
 
