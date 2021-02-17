@@ -10,7 +10,7 @@ export default function Nav() {
     <StyledNav>
       <h1>
         <Link id="logo" to="/">
-          Capture
+          WeMakeMovies
         </Link>
       </h1>
       <ul>

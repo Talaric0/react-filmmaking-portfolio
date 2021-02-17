@@ -1,12 +1,12 @@
-# Filmmaking Portfolio (Not done)
+# WeMakeMovies - Filmmaking Portfolio
 
 ## Links
 
--
+- http://Talaric0.github.io/react-filmmaking-portfolio
 
 ## Description
 
-<p>This is a portfolio page. It was developed using create-react-app and function components, styled components, framer motion.</p>
+<p>WeMakeMovies is a movies portfolio page. It was developed using create-react-app and function components, styled-components, framer-motion for the animations. Mobile friendly.</p>
 
 ## Prerequisites
 
