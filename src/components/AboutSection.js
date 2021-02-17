@@ -1,15 +1,14 @@
-import React from 'react'
-import home1 from '../img/home1.png'
+import React from "react";
+import home1 from "../img/home1.png";
+import { Link } from "react-router-dom";
 //styledComponents
-import {About, Description, Image, Hide} from '../styles'
+import { About, Description, Image, Hide } from "../styles";
 //framer motion
-import {motion} from 'framer-motion'
+import { motion } from "framer-motion";
 import { titleAnim, fade, photoAnim } from "../animation";
 import Wave from "./Wave";
 
-
 export default function AboutSection() {
-
   return (
     <About>
       <Description>
@@ -30,12 +29,14 @@ export default function AboutSection() {
           Contact us for any photography or videography ideas that you have. We
           have professionals with amazing skills.
         </motion.p>
-        <motion.button variants={fade}>Contact Us</motion.button>
+        <Link to="/contact">
+          <motion.button variants={fade}>Contact Us</motion.button>
+        </Link>
       </Description>
       <Image>
         <motion.img variants={photoAnim} src={home1} alt="guy with a camera" />
       </Image>
       <Wave />
     </About>
-  )
+  );
 }
